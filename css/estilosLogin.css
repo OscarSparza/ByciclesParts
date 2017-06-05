@@ -1,0 +1,101 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster+Two';
+@import 'https://fonts.googleapis.com/css?family=Lobster+Two:700i|Open+Sans';
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    margin-left: 390px;
+}
+
+h1{
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 1.5px;
+    font-style: italic;   
+}
+select{
+    height: 48px;
+    font-size: 16px;
+}
+
+.contenedor{
+    margin: auto;
+    width: 100%;
+}
+/*--------------------Estilos Form*/
+.form_cuenta{
+    margin-top: -600px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    background: #383A3D;
+    border-radius: 7px;
+    border: 10px solid #fff;
+}
+.form_titulo{
+    background: rgba(50, 94, 255, 1);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid #111;
+    margin-top: -1px;
+}
+.contenedor_inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+}
+input,label{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+a{
+    color: rgba(50, 94, 255, 1);
+}
+label{
+    text-align: center;
+}
+.completo{
+    width: 100%;
+}
+.mitad{
+    width: 48%;
+}
+.genero{
+    margin-top: 26px;
+    margin-left:105px
+}
+/*-----------Estilos boton*/
+.btn-registrar{
+    background:rgba(50, 94, 255, 1);
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn-registrar:active{
+    transform: scale(1.2);
+}
+.form_link{
+    width: 100%;
+    margin: 7px;
+    font-size: 14px;
+    text-align: center;
+}
+   
+
+

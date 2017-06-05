@@ -1,0 +1,397 @@
+@import
+"https://fonts.googleapis.com/css?family=Quintessential";
+
+html{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/fondo.jpg);
+    background-size: 100vw 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    display: block;
+    margin:8px;
+    font-family: 'Quintessential', cursive;
+    font-size: 18px;
+    color: #fff;
+    
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contenedor_prin{
+
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: rgba(0,0,0,0.2);
+}
+.ast{
+    color: #c52e02;
+    
+}
+#header{
+    background-color:#000;
+    width: 100%;   
+    height: 80px;
+    border-radius: 25px;
+    
+}
+#titulo{
+    font-family: 'Quintessential', cursive;
+    font-size: 50px;
+    color: #fff;
+    padding-left: 20px;
+    text-align: center;
+    
+}
+#titulo span, .subtitulo{
+    color:#c52e02;
+}
+
+.subtitulo{
+    margin-left: 150px;
+}
+/*-------------------Menu Estilos*/
+
+nav{
+    position: static;
+    width: auto;
+}
+.nav{
+    font-family: 'Quintessential', cursive;
+    font-size: 17px;
+    top: 60px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    left: -100%;
+    width: 100%;
+    transition: all 0.4s;
+    background: rgba(0,0,0,0.9);
+}
+
+#menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu__link{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #3593D4;
+}
+.menu__link:hover, .seleccionada{
+    background: #fff;
+    color: #3593D4;
+    text-decoration: none;
+}
+
+fieldset{
+    background: rgba(0,0,0,0.6);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px; 
+    
+}
+#nombre{
+    float: left;
+    width: 350px;
+}
+#cantidad{
+    float: left;
+    width: 50px;    
+}
+#valor{
+    float: left;
+    width: 100px;
+}
+
+input[type=date], select{
+    width: 195px;
+}
+input[type=email]{
+    width: 300px;
+}
+textarea{
+    width: 490px;
+    height: 100px;
+}
+div#columna1paso2{
+    width: 40%;
+    height: 10%;
+    float: left;
+    text-align: right;
+    font-size:110%;
+}
+div#columna2paso2{
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+div#columna3paso2{
+    width: 49%;
+    height: 100%;
+    float: left;
+    text-align: right;
+    font-size:110%;
+    margin-left: -5px;
+}
+#detalle{
+    width: 350px;
+    margin-right: 20px;
+}
+
+#icono1, #icono2, #boton1, #boton2,  #icono3, #boton3{
+    width: 16%;
+    display: inline-block;
+}
+#icono4, #icono5, #boton4, #boton5{
+        width: 24%;
+    display: inline-block;
+    
+}
+#icono1{
+    text-align: right;
+}
+
+#boton2{
+    text-align: right;    
+}
+
+#icono3{
+    text-align: right;
+}
+#boton4{
+    text-align: left;
+}
+#icono4{
+    text-align: right;
+    margin-left: 10px;
+    
+}
+#boton5{
+    text-align: right;
+}
+
+#icono5{
+    text-align: left;
+}
+
+/*-------------------Estilos de Iconos*/
+
+.icon-cliente, .icon-cancelar, .icon-paypal, .icon-ajustes, .icon-actualizar, .icon-eliminar, .icon-ok, .icon-visa, .icon-agregar, .icon-atras, .icon-open, .icon-renovar, .icon-cesta, .icon-bloqueo, .icon-carrito {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+}
+
+/*#fotografia{
+    width: 300px;
+    height: 230px;    
+}*/
+/*---------------------Estilos Botones*/
+.btn{
+    font-family: 'Quintessential', cursive;
+    color: #000;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 15px;
+}
+.btn:active{
+    transform: scale(1.1);
+}
+
+#eliminarProducto, #actualizarProducto, #inscribir, #atras, #registrarProducto, #back{
+    width: 200px;    
+}
+/*-----------------Estilos de Footer*/
+footer {
+	width:100%; 
+	padding:23px 0 30px;
+	background:	#383A3D;
+}
+
+h2 span {
+    font-family: 'Quintessential', cursive;
+    font-size:80px;
+    color:#1E90FF;
+}
+
+h4{
+    color: #fff;
+    font-size:20px;
+}
+
+.main {
+	width:960px; 	
+	padding:0;
+	margin:0 auto;
+	font-size:13px;
+	line-height:25px;
+}
+.aligncenter {
+    text-align:center;
+    color: #fff;
+}
+
+
+
+
+/*Editar.php*/
+
+
+/*.foto {	
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.foto img {
+    height: 400px;
+    width: 267px;
+}*/
+
+.fa-credit-card{
+    float:right
+}
+
+.botones {	
+    float: left;
+    width: 10%;
+    height: 40%;
+    text-align: center;
+}
+
+.perfil {
+    font-family: 'Quintessential', cursive;
+    font-size: 15px;
+    margin: 0 auto;
+    background-image: url("../images/fondo.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+
+/*ventana cliente*/
+
+.modalmask {
+    margin-top: -90px;
+    position: fixed;
+    font-family: Arial, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalbox{
+    width: 1100px;
+    height: 6532x;
+    position: relative;
+    padding: 5px 20px 13px 20px;
+    background: #fff;
+    border-radius:3px;
+    -webkit-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+}
+
+.modalmask:target .movedown{		
+    margin:10% auto;
+}
+.modalmask:target .rotate{		
+    transform: rotate(360deg) scale(1,1);
+    -webkit-transform: rotate(360deg) scale(1,1);
+}
+
+.modalmask:target .resize{
+    width:400px;
+    height:200px;
+}
+
+.modalmask2:target {
+    opacity:1;
+    pointer-events: auto;
+    display: block;
+}
+
+
+
+.close {
+    background: red;
+    color: #FFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    top: 1px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.close:hover { 
+    background: red; 
+    color:#222;
+}
+
+
+
+
+/*-------------------- Estilos Responsive*/
+
+@media screen and (min-width:961px){
+
+    html,body{
+        font-size: 100%;
+    }
+
+    input,textarea,select{
+        font-size: 100%;
+    }
+
+    .btn{
+        width: 15%;
+    }
+
+}
+
+
+
+

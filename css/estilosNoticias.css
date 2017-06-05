@@ -1,0 +1,95 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster+Two';
+@import 'https://fonts.googleapis.com/css?family=Lobster+Two:700i|Open+Sans';
+*{
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.contenedor{
+    margin: auto;
+    width: 100%;
+}
+/*--------------------Estilos Main*/
+.main1{
+    color:#fff;
+    padding: 15px;
+}
+#contenedor{
+    background: #0B2161;
+    margin: auto;
+    width: 90%;
+    height: 500px;
+}
+/*------------------Estilos link a Pag1*/
+#link{
+    width: 33.5%;
+    height: 50%;
+    border: 9px solid;
+    float:left;
+}
+#img__link{
+    width: 100%;
+    height: 100%; 
+    padding: 20px;
+}
+/*--------------------Estilos video*/
+#video{
+    width: 33.5%;
+    height: 50%;
+    border: 9px solid;
+    float: left;
+}
+#video1{
+    width: 33%;
+    height: 50%;
+    border: 9px solid;
+    float: left;
+}
+#video2{
+    width: 33%;
+    height: 50%;
+    border: 9px solid;
+    float: left;
+}
+.video{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 15px;
+    position: relative;
+    width: auto;
+}
+.video iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;  
+}
+
+/*--------------------Estilos de texto*/
+#parrafo{
+    width: 67%;
+    height: 50%;
+    border: 9px solid;
+    float:left;
+    margin: auto;
+}
+#parrafo__titulo{
+    width: 100%;
+    height: 50px;
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    text-align: center;  
+    margin: auto;
+    font-size: 40px;
+}
+#parrafo__texto{
+    padding: 30px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align:justify; 
+}
